@@ -11,6 +11,7 @@ module.exports = {
     'prettier/prettier': 'error',
     '@typescript-eslint/no-unused-vars': 'error',
     '@typescript-eslint/no-explicit-any': 'warn',
+    'react/no-unescaped-entities': 'warn',
   },
   // 如果需要，可以在这里添加 overrides
 };

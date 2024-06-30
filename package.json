@@ -4,14 +4,14 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint --dir .",
-    "lint:fix": "next lint --dir . --fix",
+    "lint": "next lint .",
+    "lint:fix": "next lint . --fix",
     "format": "prettier --write .",
     "prepare": "husky install"
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": [
-      "next lint --fix",
+      "next lint . --fix",
       "prettier --write"
     ],
     "*.css": [
